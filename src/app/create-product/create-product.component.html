@@ -1,0 +1,10 @@
+<div [formGroup]="formulario">
+
+    <div>
+        <label for="">Nome:</label>
+        <input type="text" formControlName="nome" id="nome">
+    </div>
+
+</div>
+
+<button type="submit" (click)="insertProduct()">Salvar</button>

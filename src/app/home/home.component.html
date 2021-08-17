@@ -1,0 +1,40 @@
+<section>
+    <div id="cards">
+        <mat-grid-list cols="4" rowHeight="2:1">
+            <mat-grid-tile>
+                <mat-card>
+                    <mat-card-title>Lucro Total Liquido</mat-card-title>
+                    <mat-card-content>R${{lucroTotal}}</mat-card-content>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-card>
+                    <mat-card-title>Lucro Total Bruto</mat-card-title>
+                    <mat-card-content>R${{lucroBruto}}</mat-card-content>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-card>
+                    <mat-card-title>Vendas Efetuadas</mat-card-title>
+                    <mat-card-content>{{vendasEfetuadas}}</mat-card-content>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-card>
+                    <mat-card-title>Produtos em Estoque</mat-card-title>
+                    <mat-card-content>{{produtosEstoque}}</mat-card-content>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-card>
+                    <mat-card-title>Valor Investido</mat-card-title>
+                    <mat-card-content>R${{valorInvestido}}</mat-card-content>
+                </mat-card>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</section>

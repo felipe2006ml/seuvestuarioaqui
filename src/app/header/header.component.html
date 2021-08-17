@@ -1,0 +1,14 @@
+<header style="display: flex; justify-content: space-between;">
+    <div id="menu-left">
+        <a mat-button>Home</a>
+        <a mat-button [matMenuTriggerFor]="menuR">Produtos</a>
+        <mat-menu #menuR="matMenu">
+            <a mat-menu-item [routerLink]="['/create-product']">Cadastrar</a>
+            <a mat-menu-item>Listar</a>
+        </mat-menu>
+        <a mat-button>Vendas</a>
+        <a mat-button>Compras</a>
+        <a mat-button>Financeiro</a>
+    </div>
+    <a mat-button [routerLink]="['/login']">Sair</a>
+</header>

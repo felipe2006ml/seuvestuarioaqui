@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    #login{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        mat-form-field{
+            margin-top: 20px;
+            width: 300px;
+        }
+
+        #btn-login{
+            display: flex;
+            justify-content: center;
+            
+            button{
+                margin-right: 20px;
+            }
+        }
+    }
+}
